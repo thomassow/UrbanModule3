@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/arial-narrow.woff") format("woff2");
+    font-display: swap;
+  }
+
+html {
+    height: 100%;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    background:  #f8f9fa;
+}
+.title{
+    color: #ffffff;
+    background: #abbff7;
+    min-height: 50px;
+    margin-top:20px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+    width: 490px;
+    min-height: 66px;
+    margin: 0 auto;
+    margin-left: 15px;
+    padding: 0;
+}
+.navigation-item{
+    margin: 0;
+    padding: 17px;
+    list-style: none;
+}
+.link{
+    width: 42px;
+    min-height: 66px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+.link:hover{
+    color: #7bbb9b;
+}
+.intro{
+    color: #ffffff;
+    background-color: #007bff;
+    text-align: center;
+}
+.title-intro{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 31px;
+    padding-top: 20px;
+}
+.description-intro{
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+}
+.content{
+    background-color: #ffffff;
+    box-shadow: 0 0 20px  #616161;
+    text-align: center;
+}
+.title-content{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 31px;
+    padding-top: 20px;
+}
+.description-content{
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+}
+.footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
